@@ -139,15 +139,4 @@ results = evaluate_functional_correctness("samples.jsonl")
 - 最大重试次数
 - Token数量限制
 
-## 扩展功能
-
-### 自定义优化策略
-可以通过继承基础类实现自定义的代码优化策略：
-
-```python
-class CustomOptimizer:
-    def optimize(self, code, problem):
-        # 实现自定义优化逻辑
-        return optimized_code
-```
 
